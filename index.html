@@ -47,7 +47,72 @@
             font-weight: 400;
             line-height: 150%;
         }
+
+        main #content{
+            display: flex;
+            align-items: center;
+            background-color: #EAECE5;
+            margin-bottom: 100px;
+            
+            
+        }
+        main #content #iconsText{
+            display: flex;
+            justify-content:space-around;
+            width: 100%;
+            height: 200px;
+            list-style-type: none;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 150%;
+            color: #122235;
+            align-items: center;
+            
+
+        }
+        main #content img{
+            margin-right: 25px;
         
+        
+        }
+
+        main #content h3{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 150%;
+            display: flex;
+            align-items: center;
+            color: #122235;     
+
+        }
+       
+        main #mainContent{
+            display: flex;
+            align-items: center;
+        }
+        main #mainContent img{
+            margin: 20px 60px 60px 100px;
+        }
+        
+        main #text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        main #text h2{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 150%;
+            color: #247BA0;
+
+        
+        }
     </style>
 </head>
 
@@ -65,8 +130,30 @@
         </h4>
 
         </div>
-        
-    </header>
+        </header>
+
+        <main>
+            <div id="content">
+                <div id="iconsText">
+                    <h3><img src="assets/images/icon1.svg">Certificado de conclusão</h3>
+                    <h3><img src="assets/images/icon2.svg">4 horas de conteúdo</h3>
+                    <h3><img src="assets/images/icon3.svg">Aulas online gravadas</h3>
+                </div>
+            </div>
+
+            <div id="mainContent">
+                <img src="assets/images/mainImg.svg">
+
+                <div id="text">
+                    <h2>Aprenda com especialistas e<br> comece seu primeiro projeto</h2>
+                    <h5>Conheça o processo de desenvolvimento e entenda como utilizar os principais métodos e ferramentas da área para resolver problemas complexos.
+                        Conquiste seu certificado e desenvolva um projeto prático para aplicar seus conhecimentos.</h5>
+            
+                </div>
+                
+            </div>
+
+        </main>
     
 </body>
 </html>
