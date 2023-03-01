@@ -93,15 +93,18 @@
         main #mainContent{
             display: flex;
             align-items: center;
+            margin-bottom: 100px;
         }
         main #mainContent img{
-            margin: 20px 60px 60px 100px;
+            margin: 20px 80px 60px 100px;
+            width: 42%;
+            height: 347px;
         }
         
         main #text{
             display: flex;
             flex-direction: column;
-            align-items: center;
+            margin-top: 0;
         }
         main #text h2{
             font-family: 'Inter';
@@ -111,8 +114,116 @@
             line-height: 150%;
             color: #247BA0;
 
-        
         }
+        main #text h5{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #383838;
+
+        }
+        main #userComment{
+            background-color:#247BA0;
+            padding: 70px;
+            
+;
+        }
+        main #userComment h1{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 150%;
+            text-align: center;         
+            color: #EAECE5;
+            margin-bottom: 70px;
+         
+        }
+
+        main #user{
+            display: flex;
+            align-items: center;
+            justify-content:space-evenly;
+        }
+        main b{
+            font-weight: 700px;
+            color: #383838;
+        }
+
+        main #comment1{
+            width: 40%;
+            display: flex;
+            background-color: white;
+            padding: 5px 10px 5px 10px;
+            border-radius: 16px;
+            font-family: 'Inter';
+            font-style:normal;
+            font-weight:lighter;
+            font-size: 16px;
+            line-height: 130%;        
+            color: #6e6868;
+            align-items: center;
+            justify-content: space-evenly;
+            
+        }
+        main #comment1 img{
+           width: 120px;
+           height: 120px;
+           border-radius: 120px; 
+           margin-right: 20px;
+           
+        }
+
+        main #comment2{
+            width: 40%;
+            display: flex;
+            background-color: white;
+            padding: 5px 10px 5px 10px;
+            border-radius: 16px;
+            font-family: 'Inter';
+            font-style:normal;
+            font-weight:lighter;
+            font-size: 16px;
+            line-height: 130%;        
+            color: #6e6868;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        main #comment2 img{
+           width: 120px;
+           height: 120px;
+           border-radius: 120px; 
+           margin-right: 20px;
+        }
+
+        footer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        footer div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 130%;
+            color:  #383838;
+            margin-top: 50px;
+        }
+        footer div input{
+            background: #247BA0;
+            border-radius: 8px; 
+        }
+        
+
     </style>
 </head>
 
@@ -143,17 +254,42 @@
 
             <div id="mainContent">
                 <img src="assets/images/mainImg.svg">
-
                 <div id="text">
                     <h2>Aprenda com especialistas e<br> comece seu primeiro projeto</h2>
-                    <h5>Conheça o processo de desenvolvimento e entenda como utilizar os principais métodos e ferramentas da área para resolver problemas complexos.
-                        Conquiste seu certificado e desenvolva um projeto prático para aplicar seus conhecimentos.</h5>
+                    <h5>Conheça o processo de desenvolvimento e entenda como utilizar<br> os principais métodos e ferramentas da área para resolver<br>
+                        problemas complexos.<br><br>
+                        Conquiste seu certificado e desenvolva um projeto prático para<br> aplicar seus conhecimentos.</h5>
             
+                </div>
+            </div>
+            <div id="userComment">
+                <h1>Mais de 500 alunos já iniciaram seus estudos</h1>
+                <div id="user">
+                    <div id="comment1">
+                        <img src="assets/images/userComment1.svg">
+                        <h5>“O curso da DNC School foi o ponto de<br> partida da minha transição de carreira. Hoje<br> já consegui minha primeira vaga na área!”
+                        <br><br><b>Bruna, desenvolvedora Front-End</b></h5>
+    
+                    </div>
+                    <div id="comment2">
+                        <img src="assets/images/userComment2.svg">
+                        <h5>“Gostei muito da metodologia e da<br> plataforma da DNC School. Os materiais<br> são todos muito bons”
+                        <br><br><b>Leonardo, desenvolvedor Back-End</b></h5>
+                    </div>
                 </div>
                 
             </div>
 
+
         </main>
+        <footer>
+            <div>
+                <h1>Comece agora mesmo e dê o primeiro passo na sua carreira!</h1>
+
+                <input type="submit" value="Receber acesso grátis">
+            </div>
+        </footer>
+
     
 </body>
 </html>
